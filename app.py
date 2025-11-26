@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import requests
 
 app = Flask(__name__)
-API_KEY = "dfd26ba5cfabdc6f7b53ea3f36f4c1ed"  
+API_KEY = "your_api_key"  
 @app.route("/", methods=["GET", "POST"])
 def index():
     weather_data = None
